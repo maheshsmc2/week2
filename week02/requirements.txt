@@ -1,0 +1,6 @@
+# Optional packages you may install in your own environment
+gradio
+pyyaml
+numpy
+scikit-learn
+pytest
