@@ -1,0 +1,5 @@
+FAISS is a popular library for approximate nearest neighbor (ANN) search that scales to millions of vectors efficiently.
+HNSW builds a multi-level graph to speed up nearest neighbor search by navigating through coarse-to-fine layers.
+Brute-force cosine similarity is exact but becomes too slow as the number of vectors grows into the millions.
+Diabetes symptoms include increased thirst, frequent urination, fatigue, and blurred vision.
+Hypertension increases risk of heart disease and stroke.

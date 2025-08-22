@@ -1,3 +1,11 @@
-## Day 12 — Faithfulness & Attributions
-- Insert citations for the spans that support each answer.
-- Evaluate faithfulness (e.g., string-match to cited spans + LLM judge).
+---
+title: Day 12 — RAG Index Upgrade (FAISS + HNSW)
+emoji: 🧭
+colorFrom: indigo
+colorTo: green
+sdk: streamlit
+sdk_version: "1.36.0"
+app_file: app.py
+pinned: false
+license: mit
+---
