@@ -5,7 +5,41 @@
 
 > A scalable **Approximate Nearest Neighbor (ANN) retrieval demo** using FAISS (Flat, IVF-PQ, HNSW),  
 > with **Hybrid BM25 + Vector fusion**, optional **Cross-Encoder re-ranking**, and an interactive **Streamlit app** deployed on Hugging Face.  
+# 🚀 FAISS ANN + Hybrid Search (Day 10)
 
+> Scalable ANN retrieval demo with FAISS (**Flat**, **IVF-PQ**, **HNSW**) + **Hybrid BM25 fusion**, **Cross-Encoder re-ranking**, and an **interactive Streamlit UI**.
+
+![Hybrid Search Demo](docs/demo.gif)
+
+---
+
+## ✨ Features
+- 🔍 **Indexes**: Flat (exact), IVF-PQ (compressed), HNSW (graph-based)
+- 🔗 **Hybrid Search**: BM25 + Vector similarity with tunable α
+- 🎯 **Re-ranker**: Optional Cross-Encoder for top-k precision
+- 📊 **Evaluation**: Latency vs Recall@K benchmark + plot
+- 🌐 **UI**: Streamlit playground deployed on Hugging Face
+
+---
+
+## 📸 Screenshots & Demo
+
+### 🔍 Streamlit App (UI)
+![Hybrid Search Playground](docs/screenshot.png)
+
+### 📊 Latency vs Recall
+![Latency vs Recall](docs/results_plot.png)
+
+### 🏗️ Architecture (High-Level)
+![Billion-Docs RAG Design](docs/architecture.png)
+
+---
+
+## ⚡ Quickstart
+
+### Install
+```bash
+pip install -U -r requirements.txt
 ---
 
 ## ✨ Features
