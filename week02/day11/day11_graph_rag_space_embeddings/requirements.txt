@@ -1,0 +1,4 @@
+gradio>=4.31.0
+networkx>=3.2
+sentence-transformers>=2.2.2
+torch>=2.1.0
