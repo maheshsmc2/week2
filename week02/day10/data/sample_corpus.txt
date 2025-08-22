@@ -1,0 +1,10 @@
+Vector databases and approximate nearest neighbors — ANN speeds up search at scale.
+IVF clusters vectors into buckets for fast search.
+HNSW is a graph-based index with high accuracy and speed.
+PQ compresses vectors to save memory at billion scale.
+Hybrid search combines BM25 with vector similarity.
+Cross-encoders improve precision at top ranks.
+Legal contracts require careful NLP retrieval augmented generation.
+Autonomous driving uses computer vision for lane detection.
+Recommender systems suffer from cold start problems.
+Document chunking strategies impact RAG performance.
