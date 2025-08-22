@@ -1,0 +1,10 @@
+Diabetes is a chronic condition characterized by elevated blood glucose levels due to problems with insulin production or action.
+Common symptoms of diabetes include increased thirst, frequent urination, fatigue, and blurred vision.
+Hypertension, or high blood pressure, increases the risk of heart disease and stroke and is often managed with lifestyle changes and medication.
+Insulin resistance occurs when cells in muscles, fat, and liver do not respond well to insulin and can't use glucose from blood for energy.
+Type 2 diabetes is commonly associated with obesity, physical inactivity, and genetic predisposition.
+Lifestyle interventions such as a balanced diet, regular exercise, weight management, and adequate sleep improve metabolic health.
+In retrieval‑augmented generation (RAG), vector search retrieves semantically similar passages to a user query using embeddings.
+FAISS is a popular library for approximate nearest neighbor (ANN) search that scales to millions of vectors efficiently.
+HNSW builds a multi‑level graph to speed up nearest neighbor search by navigating through coarse‑to‑fine layers.
+Brute‑force cosine similarity is exact but becomes too slow as the number of vectors grows into the millions.
