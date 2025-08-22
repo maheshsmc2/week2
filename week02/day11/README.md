@@ -1,4 +1,21 @@
+# Day 11 — Mini Graph-RAG (v1: Keyword Matching)
 
+This repo contains the baseline version of my **Graph-RAG demo** from Day 11 of my AI Interview Prep journey.
+
+## ✨ What it shows
+- A **graph-based knowledge store** using NetworkX.
+- Rule-based answers to questions like:
+  - *Who introduced X?*
+  - *Who was president when X was introduced?*
+- Deployed on Hugging Face Spaces with a Gradio UI.
+
+## 🧪 Example Queries
+```text
+Q: Who introduced Obamacare?
+A: Barack Obama
+
+Q: Who was president when Obamacare was introduced?
+A: Barack Obama
 # Day 11 — Mini Graph‑RAG (Gradio + NetworkX)
 
 A tiny, intern‑friendly **Graph‑RAG** demo you can deploy on **Hugging Face Spaces**.
@@ -21,6 +38,31 @@ python app.py
 ```
 
 Then open the local URL shown by Gradio.
+
+---
+
+## 📄 GitHub README for **v2 (Embeddings Graph-RAG)**
+
+```markdown
+# Day 11 — Mini Graph-RAG (v2: Embeddings Upgrade)
+
+This is the upgraded version of my Graph-RAG project from Day 11.
+
+## ✨ Improvements over v1
+- Integrated **sentence-transformers (all-MiniLM-L6-v2)** for embeddings.
+- Handles synonyms and paraphrased queries (not just keywords).
+- UI extended with **Reasoning Trace** and **Top semantic matches** for transparency.
+
+## 🧪 Example Queries
+```text
+Q: Who introduced Obamacare?
+A: Barack Obama
+
+Q: Who brought in the Affordable Care Act?
+A: Barack Obama  ✅ (semantic match worked)
+
+Q: Who was president when the ACA was rolled out?
+A: Barack Obama
 
 ## 🚀 Deploy on Hugging Face Spaces
 1. Go to **Hugging Face → New Space**.
